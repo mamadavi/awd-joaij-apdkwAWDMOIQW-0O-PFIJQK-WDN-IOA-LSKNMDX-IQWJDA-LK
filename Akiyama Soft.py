@@ -5,6 +5,7 @@ print("███████║█████╔╝ ██║ ╚████�
 print("██╔══██║██╔═██╗ ██║  ╚██╔╝  ██╔══██║██║╚██╔╝██║██╔══██║    ╚════██║██║   ██║██╔══╝     ██║   ")
 print("██║  ██║██║  ██╗██║   ██║   ██║  ██║██║ ╚═╝ ██║██║  ██║    ███████║╚██████╔╝██║        ██║   ")
 print("╚═╝  ╚═╝╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝    ╚══════╝ ╚═════╝ ╚═╝        ╚═╝   ")
+print("                                                                           Maden with WIGIL  ")
                                                                                              
 
 while True:
@@ -36,7 +37,7 @@ while True:
   elif choice == '2':
     while True:
       print("Doxing Menu:")
-      print("1. Start  2. Back to Menu")
+      print("1. Start  2. Back to Menu 3. Love peoples")
 
       doxing_choice = input("Make a choice: ")
 
@@ -49,28 +50,30 @@ while True:
       elif doxing_choice == '2':
         print("Back to Menu")
         break  # Выходим из внутреннего цикла меню Доксинг
+      elif doxing_choice == '3':
+        print("./fuck_me.sh")
       else:
         print("Invalid Choice")
 
-  elif choice == '3':
-    # Меню DDoS
-    while True:
-      print("DDoS Menu:")
-      print("1. Start  2. Back to Menu")
+  # elif choice == '3':
+  #   # Меню DDoS
+  #   while True:
+  #     print("DDoS Menu:")
+  #     print("1. Start  2. Back to Menu")
 
-      ddos_choice = input("Make a choice: ")
+  #     ddos_choice = input("Make a choice: ")
 
-      if ddos_choice == '1':
-        # Код для запуска DDoS
-        # ...
-        # Дополнительные действия
-        # ...
-        break  # Выходим из внутреннего цикла меню DDoS
-      elif ddos_choice == '2':
-        print("Back to Menu")
-        break  # Выходим из внутреннего цикла меню DDoS
-      else:
-        print("Invalid Choice")
+  #     if ddos_choice == '1':
+  #       # Код для запуска DDoS
+  #       # ...
+  #       # Дополнительные действия
+  #       # ...
+  #       break  # Выходим из внутреннего цикла меню DDoS
+  #     elif ddos_choice == '2':
+  #       print("Back to Menu")
+  #       break  # Выходим из внутреннего цикла меню DDoS
+  #     else:
+  #       print("Invalid Choice")
 
   elif choice == '4':
     print("Exit")
@@ -79,3 +82,6 @@ while True:
     print("Invalid Choice")
 
 print("Bye!")
+
+
+print("TRY TO FIND ME")
