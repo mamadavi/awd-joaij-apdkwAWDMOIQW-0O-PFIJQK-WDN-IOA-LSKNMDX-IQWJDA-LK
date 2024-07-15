@@ -1,13 +1,16 @@
 import subprocess
 import os
-from colorama import Fore, Style, init
+
 
 
 try:
   os.system("sudo apt install nmap nuclei assetfinder subfinder finalrecon lolcat")
+  os.system("pip3 install colorama requests")
 except:
   pass
 
+from colorama import Fore, Style, init
+import requests
 
 os.system("printf '\033c'")
 
