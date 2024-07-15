@@ -5,6 +5,7 @@ from colorama import Fore, Style, init
 # Установка зависимостей (только если их нет)
 try:
   os.system("sudo apt install nmap nuclei assetfinder subfinder finalrecon lolcat")
+  os.system("pip3 install colorama")
 except:
   pass
 
